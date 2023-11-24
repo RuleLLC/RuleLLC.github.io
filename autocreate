@@ -1,0 +1,29 @@
+#!/bin/bash
+
+#Auto page creation
+
+pid="$1"     #Example: downloads
+title="$2"   #Example: Kest Downloads
+content="$3" #Example: Download at bit.ly/2grpe
+
+mkdir "$pid"
+
+echo '<!DOCTYPE html>
+<!----><!----><!---->
+<!----><!----><!---->
+<!----><!----><!---->
+<head>
+<link rel="stylesheet" href="/style.css" />
+<title>'$title'</title>
+</head>
+<body>
+<div class="box"><p id="title">'$title'</p><hr>
+
+<p>
+<a class="link" href="/">Home</a><a  class="link" href="/download">Download</a><a  class="link" href="https://github.com/RuleLLC">Us</a><a  class="link" href="/docs">Docs</a>
+</p>
+'$content'
+</div>
+<div id="footer">(c)2023 RuleLLC</br></br></br></br></br></br></br></br></br></br></br></br></div>
+</body>
+</html>'>$pid/index.html

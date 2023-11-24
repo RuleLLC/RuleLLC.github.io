@@ -322,7 +322,7 @@ body{padding:0; background-color:#444;}
 }
 #title{
 color:#444444;
-font-size:40px;
+font-size:30px;
 }
 .subtitle{
 color:#222222;
@@ -357,4 +357,7 @@ padding-bottom:50px;
 color:#888888;
 font-size:12px;
 text-align:center;
+}
+.link{
+margin:4px;
 }
