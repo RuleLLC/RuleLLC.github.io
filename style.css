@@ -337,6 +337,7 @@ font-size:16px;
 	width:300px;
 	height:200px;
 	float:left;
+	margin:8px;
 }
 .rrt{
 	text-align:right;
@@ -346,7 +347,7 @@ font-size:16px;
 }
 #footer{
 width:100%;
-background:#241f31;
+background:url('footer.png');
 color:white;
 text-align:center;
 font-size:13px;
