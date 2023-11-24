@@ -321,3 +321,35 @@ body{padding:0; background-color:#444;}
 }
 
 }
+#title{
+color:#444444;
+font-size:40px;
+}
+.subtitle{
+color:#222222;
+font-size:20px;
+}
+.subsubtitle{
+color:#111111;
+font-size:16px;
+}
+.oeoe{
+	width:300px;
+	height:200px;
+	float:left;
+}
+.rrt{
+	text-align:right;
+}
+.rro{
+	float:right;
+}
+#footer{
+width:100%;
+background:#241f31;
+color:white;
+text-align:center;
+font-size:13px;
+padding-top:50px;
+padding-bottom:50px;
+}
